@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="AzimBRO">
+    <meta name="description" content="This page content Timer project.">
+    <title>Timer</title>
+    <link rel="stylesheet" type="text/css" href="timer.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="start">
+            <p>Time countdown</p>
+        </div>
+        <div class="display">
+            <h2 class="hours">00</h2>
+            <h2>:</h2>
+            <h2 class="minutes">00</h2>
+            <h2>:</h2>
+            <h2 class="seconds">00</h2>
+        </div>
+    </div>
+    <div class="control">
+        <div id="myModal" class="modal none">
+            <div class="modal-content">
+                <h2>Set time</h2>
+                <div class="inputBoard">
+                    <input type="number" id="hours" placeholder="hours">
+                    <input type="number" id="minutes" placeholder="minutes">
+                    <input type="number" id="seconds" placeholder="seconds">
+                </div>
+                <button id="submitButton">Submit</button>
+            </div>
+        </div>
+
+        <div class="controlBtns">
+            <button class="dot"><img src="/img/ph_dots-three-outline-fill.svg" alt=""></button>
+
+            <button class="play"><img src="/img/ph_play-fill.svg" alt=""></button>
+            <button class="pause hidden"><img src="/img/ph_pause-fill.svg" alt=""></button>
+
+            <button class="reset"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#fff" class="bi bi-arrow-clockwise" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z"/>
+                <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z"/>
+              </svg></button>
+        </div>
+
+    </div>
+    <script src="timer.js"></script>
+</body>
+
+</html>
