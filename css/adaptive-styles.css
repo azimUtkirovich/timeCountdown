@@ -1,0 +1,79 @@
+@media (max-width: 1280px) {
+
+    .display h2 {
+        font-size: 236px;
+    }
+
+    .controlBtns .pause {
+        right: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .display h2 {
+        font-size: 120px;
+    }
+
+    .dot,
+    .reset {
+        padding: 15px 25px;
+        border-radius: 20px;
+    }
+
+    .play,
+    .pause {
+        padding: 20px 40px;
+    }
+
+    .display {
+        gap: 30px;
+    }
+
+    .start p {
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    .controlBtns .pause {
+        right: 42.7%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .main {
+        gap: 20px;
+    }
+
+    .display {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .controlBtns .pause {
+        right: 38.5%;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .dot,
+    .rest {
+        padding: 10px;
+    }
+
+    .play,
+    .pause {
+        padding: 10px 30px;
+    }
+
+    .reset svg {
+        width: 15px;
+        height: 15px;
+    }
+
+    .controlBtns .pause {
+        right: 38%;
+    }
+}
